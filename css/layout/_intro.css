@@ -1,0 +1,49 @@
+.intro {
+  background: #2e3949;
+  align-items: center;
+  display: flex;
+  color: #5D9EB7;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.intro__loader {
+  display: inline-block;
+  height: 3ch;
+  overflow: hidden;
+}
+
+.intro__loader ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  top: 3ch;
+  animation: slide 3.5s ease-in forwards;
+  animation-delay: 1s;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.intro__loader li {
+  font-size: 0.9rem;
+  font-weight: 600;
+  list-style-type: none;
+  height: 3ch;
+}
+
+.intro__overlay {
+  animation: slideOut 2.5s ease-in forwards;
+  animation-delay: 1s;
+  background: var(--brand-blue);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  transform: translateY(100%);
+  width: 100%;
+  z-index: 1;
+}

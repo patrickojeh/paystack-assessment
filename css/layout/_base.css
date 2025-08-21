@@ -1,0 +1,17 @@
+.bg-wrapper {
+  background: 
+  linear-gradient(
+    to bottom,
+    rgb(7, 20, 40, 1),
+    rgb(7, 20, 40, 0.8)
+  ),
+  url('../../assets/images/hero.png') center/cover no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 0 20px;
+}
