@@ -1,0 +1,73 @@
+.hero {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.hero__title {
+  background: url('../../assets/images/hero.png') center/cover no-repeat;
+  font-family: var(--secondary-font);
+  font-size: clamp(12.5rem, 10vw, 8rem);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  line-height: 0.9;
+  margin: 88px 0 32px;
+  text-transform: uppercase;
+  word-break: break-word;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__tagline {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 0 auto 2rem;
+  max-width: 700px;
+}
+
+.hero__labels {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero__label {
+  background: var(--accent-orange);
+  border-radius: 2rem;
+  color: var(--brand-orange);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  transition: 0.3s ease background;
+}
+
+.hero__scroll {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  margin-top: 60px;
+}
+
+.hero__scroll .arrow {
+  position: absolute;
+  margin-left: 8px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  animation: bounceDown 1.5s infinite;
+}

@@ -1,0 +1,21 @@
+input,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 6px;
+  color: var(--white);
+  font-size: 0.9rem;
+  padding: 0.75rem 0.6rem;
+  width: 100%;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid var(--brand-orange);
+  outline: none;
+}
+
+input::placeholder,
+select::placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}

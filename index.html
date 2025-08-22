@@ -1,31 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dakar Film Festival</title>
-  <link rel="stylesheet" href="./css/main.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dakar Film Festival</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-    rel="stylesheet">
-</head>
-
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plaster&display=swap" rel="stylesheet">
 <body>
   <section class="intro">
     <div class="intro__loader">
       <ul>
-        <li>#Dakar2025</li>
-        <li>#ThisisDakar</li>
-        <li>#Dakar25'</li>
+        <li>Reuniting the world through art</li>
+        <li>Celebrating a new era for Senegal</li>
+        <li>Welcome to Dakar 🇸🇳</li>
       </ul>
     </div>
   </section>
-  a2sd
+
+  <div class="bg-wrapper">
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">Dakar<br/>2025</h1>
+        <p class="hero__tagline">
+          The International Fair Returns To Its Original Site, Reimagined.
+        </p>
+        <div class="hero__labels">
+          <span class="hero__label">Innovation</span>
+          <span class="hero__label">Culture</span>
+          <span class="hero__label">Trade</span>
+          <span class="hero__label">Sustainability</span>
+        </div>
+        <button class="hero__scroll">Explore
+          <img 
+            src="./assets/images/arrow-down-double-icon.svg" 
+            class="arrow" 
+            alt="Arrow pointing downwards" 
+            height="16" 
+            width="16"
+          />
+        </button>
+      </section>
+
+      <section class="festival-intro">
+        <div class="container">
+          <header class="nav-header">
+            <div class="logo">
+              <a href="#"><img src="assets/images/logo.svg" alt="Dakar International Fair Logo" height="26" width="120"></a>
+            </div>
+            <nav class="nav">
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#exhibit">Exhibit</a></li>
+                <li><button class="button button--primary">Buy Tickets</button></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="intro-container">
+            <div class="intro-left">
+              <div class="intro-tags">
+                <span>7 days • Nov 12–18</span>
+                <span>5 stages • 1 film cinema</span>
+                <span>200+ exhibitors</span>
+              </div>
+              <h2>Where Creativity, Commerce & Climate Meet.</h2>
+              <p>
+                Seven Days Of Concerts, Film Premieres, Startup Showcases, Trade Pavilions And A Global Marketplace Focused On Afro-Atlantic Culture And Sustainable Futures.
+              </p>
+            </div>
+
+            <div class="intro-right">
+              <h4>Buy Tickets</h4>
+              <p>Join the mailing list for pre-sales, exhibitor perks and travel deals.</p>
+              <form class="signup-form">
+                <div class="form-item">
+                  <label for="full-name">Full name</label>
+                  <input id="full-name" type="text" placeholder="John Doe" required />
+                </div>
+
+                <div class="form-item">
+                  <label for="email">Email address</label>
+                  <input type="email" placeholder="name@example.com" required />
+                </div>
+
+                <div class="form-item">
+                  <label for="phone">I am </label>
+                  <select id="phone">
+                    <option value="visitor">A Visitor</option>
+                    <option value="exhibitor">An Exhibitor</option>
+                  </select>
+                </div>
+
+                <div class="form-buttons">
+                  <button type="submit" class="button button--secondary button--block">Get Tickets</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <button class="hero__scroll">Program Highlights 
+            <img 
+              src="./assets/images/arrow-down-double-icon.svg" 
+              class="arrow" 
+              alt="Arrow pointing downwards" 
+              height="16" 
+              width="16"
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="program-highlights">
+        <div class="program-highlights__header">
+          <h3 class="program-highlights__title">Program Highlights</h3>
+          <p class="program-highlights__description">Seven days of concerts, film premieres, parties, innovations, trade pavilions and a grand marketplace,
+            you will have the opportunity to showcase and get new experiences.</p>
+        </div>
+        <div class="container">
+          <div class="program-highlights__cards">
+            <div class="program-highlights__card">
+              <img src="./assets/images/concerts-films.png" alt="Concerts, Films & Music" class="program-highlights__card-image">
+              <h3 class="program-highlights__card-title">Concerts, Films & Music</h3>
+              <p class="program-highlights__card-description">
+                Experience seven days of concerts, film premieres, parties, and musical performances with local, national and international artists.
+              </p>
+            </div>
+            <div class="program-highlights__card">
+              <img src="./assets/images/concerts-films.png" alt="Film & Storytelling" class="program-highlights__card-image">
+              <h3 class="program-highlights__card-title">Film & Storytelling</h3>
+              <p class="program-highlights__card-description">
+                Dakar International Film Festival (DIFF) is a special part of the Dakar International Fair.
+              </p>
+            </div>
+            <div class="program-highlights__card">
+              <img src="./assets/images/concerts-films.png" alt="Trade, Tech & Startups" class="program-highlights__card-image">
+              <h3 class="program-highlights__card-title">Trade, Tech & Startups</h3>
+              <p class="program-highlights__card-description">
+                Opportunities for businesses and innovators to meet, connect and develop partnerships.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img src="assets/images/logo.svg" alt="Dakar International Fair Logo" height="26" width="110" class="footer__logo">
+
+      <p class="footer__title">Dakar International Fair</p>
+      <p class="footer__subtitle">Ministry of Tourism, Senegal</p>
+
+      <div class="footer__social-links">
+        <a href="#" class="footer__social-icon">
+          <img src="./assets/images/logo-facebook.svg" alt="Facebook Logo" height="16" width="16" />
+        </a>
+        <a href="#" class="footer__social-icon">
+          <img src="./assets/images/logo-instagram.svg" alt="Instagram Logo" height="16" width="16" />
+        </a>
+        <a href="#" class="footer__social-icon">
+          <img src="./assets/images/logo-linkedin.svg" alt="LinkedIn Logo" height="16" width="16" />
+        </a>
+      </div>
+
+      <div class="footer__links">
+        <a href="mailto:info@dakafair.sn">Contact: info@dakafair.sn</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+    </footer>
+  </div>
 
   <script src="./js/main.js" type="module"></script>
 </body>
-
 </html>
