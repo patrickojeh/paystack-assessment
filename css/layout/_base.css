@@ -5,7 +5,7 @@
     rgb(7, 20, 40, 1),
     rgb(7, 20, 40, 0.8)
   ),
-  url('../../assets/images/hero.png') center/cover no-repeat;
+  url('../../assets/images/hero.webp') center/cover no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
 }

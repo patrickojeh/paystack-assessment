@@ -10,7 +10,7 @@
 }
 
 .hero__title {
-  background: url('../../assets/images/hero.png') no-repeat no-repeat;
+  background: url('../../assets/images/hero.webp') no-repeat no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
