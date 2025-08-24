@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/patrickojeh/paystack-assessment#readme",
   "description": "",
   "devDependencies": {
+    "eslint": "^8.57.1",
     "live-server": "^1.2.2"
   }
 }
