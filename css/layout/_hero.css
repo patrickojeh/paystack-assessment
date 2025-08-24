@@ -10,7 +10,10 @@
 }
 
 .hero__title {
-  background: url('../../assets/images/hero.png') center/cover no-repeat;
+  background: url('../../assets/images/hero.webp') no-repeat no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   font-family: var(--secondary-font);
   font-size: clamp(12.5rem, 10vw, 8rem);
   font-weight: 900;
@@ -61,6 +64,7 @@
   display: block;
   position: relative;
   margin-top: 60px;
+  text-align: center;
 }
 
 .hero__scroll .arrow {

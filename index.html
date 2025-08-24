@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dakar Film Festival</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plaster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plaster&display=swap" rel="stylesheet">
+  </head>
 <body>
   <section class="intro">
     <div class="intro__loader">
@@ -32,7 +33,7 @@
           <span class="hero__label">Trade</span>
           <span class="hero__label">Sustainability</span>
         </div>
-        <button class="hero__scroll">Explore
+        <a class="hero__scroll" href="#explore">Explore
           <img 
             src="./assets/images/arrow-down-double-icon.svg" 
             class="arrow" 
@@ -40,10 +41,10 @@
             height="16" 
             width="16"
           />
-        </button>
+        </a>
       </section>
 
-      <section class="festival-intro">
+      <section class="festival-intro" id="explore">
         <div class="container">
           <header class="nav-header">
             <div class="logo">
@@ -51,8 +52,8 @@
             </div>
             <nav class="nav">
               <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#program">Program</a></li>
+                <li><a href="#explore">About</a></li>
+                <li><a href="#highlights">Program</a></li>
                 <li><a href="#exhibit">Exhibit</a></li>
                 <li><button class="button button--primary">Buy Tickets</button></li>
               </ul>
@@ -101,7 +102,7 @@
             </div>
           </div>
 
-          <button class="hero__scroll">Program Highlights 
+          <a class="hero__scroll" href="#highlights">Program Highlights 
             <img 
               src="./assets/images/arrow-down-double-icon.svg" 
               class="arrow" 
@@ -109,11 +110,11 @@
               height="16" 
               width="16"
             />
-          </button>
+          </a>
         </div>
       </section>
 
-      <section class="program-highlights">
+      <section class="program-highlights" id="highlights">
         <div class="program-highlights__header">
           <h3 class="program-highlights__title">Program Highlights</h3>
           <p class="program-highlights__description">Seven days of concerts, film premieres, parties, innovations, trade pavilions and a grand marketplace,
@@ -122,25 +123,25 @@
         <div class="container">
           <div class="program-highlights__cards">
             <div class="program-highlights__card">
-              <img src="./assets/images/concerts-films.png" alt="Concerts, Films & Music" class="program-highlights__card-image">
-              <h3 class="program-highlights__card-title">Concerts, Films & Music</h3>
+              <h3 class="program-highlights__card-title">Music & Live</h3>
               <p class="program-highlights__card-description">
-                Experience seven days of concerts, film premieres, parties, and musical performances with local, national and international artists.
+                Five stages with Senegalese headliners & collaborators. Curated nights: Afro-Funk, Jazz & Electronic Dialogues.
               </p>
+              <small>✓ "Night of the Coasts", inspired performances.</small>
             </div>
             <div class="program-highlights__card">
-              <img src="./assets/images/concerts-films.png" alt="Film & Storytelling" class="program-highlights__card-image">
               <h3 class="program-highlights__card-title">Film & Storytelling</h3>
               <p class="program-highlights__card-description">
-                Dakar International Film Festival (DIFF) is a special part of the Dakar International Fair.
+                World premieres, archival screenings from the original 1971 pavilion, panels with directors and producers.
               </p>
+              <small>✓ Spotlight: Emerging filmmakers from West Africa and the Diaspora.</small>
             </div>
             <div class="program-highlights__card">
-              <img src="./assets/images/concerts-films.png" alt="Trade, Tech & Startups" class="program-highlights__card-image">
               <h3 class="program-highlights__card-title">Trade, Tech & Startups</h3>
               <p class="program-highlights__card-description">
-                Opportunities for businesses and innovators to meet, connect and develop partnerships.
+                Investor roundtables, startup demo stages, B2B matchmaking and an Afro-Atlantic pavilion connecting SMEs with buyers.
               </p>
+              <small>✓ Pitch track: 12 startups selected for investor sessions.</small>
             </div>
           </div>
         </div>
