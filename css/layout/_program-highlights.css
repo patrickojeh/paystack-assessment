@@ -28,33 +28,52 @@
 }
 
 .program-highlights__card {
-  background-color: #1a2233;
+  background: url('../../assets/images/concerts-films.png') no-repeat #1a2233;
   border-radius: 10px;
   overflow: hidden;
+  height: 300px;
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  justify-content: end;
+  padding: 32px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.program-highlights__card::before {
+  background: linear-gradient(to bottom, transparent, #03141e 76%);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.program-highlights__card small {
+  color: rgba(255 , 255, 255, 0.7);
 }
 
 .program-highlights__card-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
+  z-index: 1;
 }
 
 .program-highlights__card-title {
   font-size: 1.25rem;
   font-weight: bold;
-  margin: 1rem 0;
-  padding: 0 1rem;
+  margin: 12px 0;
 }
 
 .program-highlights__card-description {
-  font-size: 0.9rem;
-  color: #a0a0a0;
-  padding: 0 1rem 1rem;
-  flex-grow: 1;
+  font-size: 0.85rem;
+  color: rgba(255 , 255, 255, 0.8);
+  margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
